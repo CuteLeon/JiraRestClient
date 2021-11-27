@@ -16,6 +16,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Using Include="System.ComponentModel" />
 		<Using Include="System.Text" />
 		<Using Include="System.Text.Json" />
 		<Using Include="System.Net.Http.Headers" />
@@ -31,7 +32,10 @@
 		<Using Include="JiraRestClient.Option" />
 		<Using Include="JiraRestClient.Domain.ApplicationRole" />
 		<Using Include="JiraRestClient.Domain.AuditRecord" />
+		<Using Include="JiraRestClient.Domain.Avatar" />
 		<Using Include="JiraRestClient.Contract" />
+		<Using Include="JiraRestClient.Util" />
+		<Using Include="JiraRestClient.Util.AttributeValueExtension" Static="true"/>
 	</ItemGroup>
 
 </Project>
