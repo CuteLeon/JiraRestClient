@@ -27,13 +27,10 @@
 		<Using Include="Microsoft.Extensions.Options" />
 		<Using Include="JiraRestClient.Core.Clients" />
 		<Using Include="JiraRestClient.Core.Services" />
+		<Using Include="JiraRestClient.Application" />
 		<Using Include="JiraRestClient.Option" />
+		<Using Include="JiraRestClient.Domain.ApplicationRole" />
 		<Using Include="JiraRestClient.Contract" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Application\" />
-	  <Folder Include="Domain\" />
 	</ItemGroup>
 
 </Project>
