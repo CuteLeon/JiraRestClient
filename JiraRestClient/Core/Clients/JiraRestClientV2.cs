@@ -1,10 +1,10 @@
 ﻿namespace JiraRestClient.Core.Clients;
 
-internal class JiraRestClient
+internal class JiraRestClientV2
 {
     public HttpClient HttpClient { get; }
 
-    public JiraRestClient(
+    public JiraRestClientV2(
         HttpClient httpClient,
         IOptionsSnapshot<JiraRestClientOptions> options)
     {

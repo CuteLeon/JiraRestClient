@@ -1,13 +1,13 @@
 ﻿namespace JiraRestClient.Core.Services;
 
-internal abstract class JiraServiceBase
+internal abstract class JiraServiceBase : IJiraServiceBase
 {
     public ILogger<JiraServiceBase> Logger { get; }
-    protected Clients.JiraRestClient Client { get; }
+    protected JiraRestClientV2 Client { get; }
 
     public JiraServiceBase(
         ILogger<JiraServiceBase> logger,
-        Clients.JiraRestClient client)
+        JiraRestClientV2 client)
     {
         this.Logger = logger;
         this.Client = client;
