@@ -7,4 +7,6 @@ public static class JiraAPIContract
     public const string GetAllApplicationRoles = BaseRestPath + "applicationrole";
 
     public const string GetApplicationRole = BaseRestPath + "applicationrole/{0}";
+
+    public const string GetAuditRecords = BaseRestPath + "auditing/record";
 }

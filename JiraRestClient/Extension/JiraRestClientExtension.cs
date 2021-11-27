@@ -9,5 +9,6 @@ public static class JiraRestClientExtension
         .Configure(options)
         .AddHttpClient()
         .AddTransient<IApplicationRolesService, ApplicationRolesService>()
+        .AddTransient<IAuditRecordsService, AuditRecordsService>()
         .AddTransient<JiraRestClientV2>();
 }

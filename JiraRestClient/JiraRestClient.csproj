@@ -30,6 +30,7 @@
 		<Using Include="JiraRestClient.Application" />
 		<Using Include="JiraRestClient.Option" />
 		<Using Include="JiraRestClient.Domain.ApplicationRole" />
+		<Using Include="JiraRestClient.Domain.AuditRecord" />
 		<Using Include="JiraRestClient.Contract" />
 	</ItemGroup>
 
