@@ -11,4 +11,6 @@ public static class JiraAPIContract
     public const string GetAuditRecords = BaseRestPath + "auditing/record";
 
     public const string GetSystemAvatarsByType = BaseRestPath + "avatar/{0}/system";
+
+    public const string GetAvatars = BaseRestPath + "universal_avatar/type/{0}/owner/{1}";
 }
